@@ -4,7 +4,7 @@ import seaborn as sns
 import os
 
 # Load the dataset with error handling
-file_path = "assessment_dataset.xlsx"
+file_path = "../data-set/assessment_dataset.xlsx"
 try:
     df = pd.read_excel(file_path, sheet_name="in")
 except FileNotFoundError:
